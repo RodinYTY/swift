@@ -8,5 +8,5 @@
 
 import Foundation
 
-var solution = Solution
-
+var solution = Solution43()
+print(solution.multiply("0", "0"))

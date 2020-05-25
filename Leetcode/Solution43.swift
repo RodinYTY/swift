@@ -25,6 +25,33 @@
 
 class Solution43 {
     func multiply(_ num1: String, _ num2: String) -> String {
-        
+        let count1 = num1.count; let count2 = num2.count
+        var res = [Int](repeating: 0, count: count1+count2)
+        for i in stride(from: count2-1, through: 0, by: -1){
+            for j in stride(from: count1-1, through: 0, by: -1){
+                let idx1 = num1.index(num1.startIndex, offsetBy: j)
+                let idx2 = num2.index(num2.startIndex, offsetBy: i)
+                let mul = Int(num1[idx1...idx1])! * Int(num2[idx2...idx2])!
+                let p1 = i + j; let p2 = p1 + 1
+                let sum = mul + res[p2]
+                res[p2] = sum % 10
+                res[p1] += sum / 10
+            }
+        }
+        var str = String()
+        var i:Int = 0
+//        消除0
+        while i < res.count && res[i] == 0{
+            i += 1
+        }
+        if i == res.count{
+            str += "0"
+        }
+        else{
+            for j in i..<res.count{
+                str += String(format: "%d", res[j])
+            }
+        }
+        return str
     }
 }
