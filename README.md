@@ -1,2 +1,2 @@
-# swift
-Leetcode/algorithm/study
+# 用于学习swift语言
+Leetcode/algorithm/studyo
