@@ -24,10 +24,7 @@ import Foundation
 
 class Solution209 {
     func minSubArrayLen(_ s: Int, _ nums: [Int]) -> Int {
-        var surplus = -s
-        var beg = 0
-        var end = -1
-        var minLen = 0x3fffffff
+        var surplus = -s, beg = 0, end = -1, minLen = Int.max
         //initialization
         while surplus < 0 && end != nums.count - 1{
             end += 1

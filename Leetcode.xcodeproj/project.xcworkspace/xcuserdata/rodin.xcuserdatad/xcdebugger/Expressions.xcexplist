@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "Solution215.findKthLargest(_:_:):215.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nums[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Solution43.multiply(_:_:):Solution43.swift">
          <PersistentStrings>
             <PersistentString
