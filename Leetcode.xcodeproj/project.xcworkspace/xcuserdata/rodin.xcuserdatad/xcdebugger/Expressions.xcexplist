@@ -3,10 +3,45 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "fillGap(heightArray:firstIndex:lastIndex:):42.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "height[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Solution42.maxArea(_:):42.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "walls[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "removeWalls(walls:):11.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "walls[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Solution215.findKthLargest(_:_:):215.swift">
          <PersistentStrings>
             <PersistentString
                value = "nums[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "removeWalls(walls:):42.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Solution42_1.trap(_:):42_1.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "height[i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
