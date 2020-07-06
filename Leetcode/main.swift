@@ -23,7 +23,14 @@ import Foundation
 //var solution = Solution_1()
 //print(solution.maxArea([1,8,6,2,5,4,8,3,7]))
 
-var solution = Solution42_1()
-print(solution.trap([0,1,0,2,1,0,1,3,2,1,2,1]))
+//var solution = Solution42_1()
+//print(solution.trap([0,1,0,2,1,0,1,3,2,1,2,1]))
 //print(solution.trap([0,1,5,1,1,0,8,19,1,4,4,4,5,2]))
 //print(solution.trap([2,0,2]))
+
+var solution = Solution63()
+print(solution.uniquePathsWithObstacles([
+  [0,0,0],
+  [0,1,0],
+  [0,0,0]
+]))
