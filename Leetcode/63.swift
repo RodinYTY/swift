@@ -35,7 +35,7 @@
 class Solution63 {
     func uniquePathsWithObstacles(_ obstacleGrid: [[Int]]) -> Int {
         let n = obstacleGrid.count, m = obstacleGrid[0].count
-        //滚动数组，由于只用到最后一个格子的count，故将列count压缩到一维并依此累加递推
+        //滚动数组，arr表示当前i对应行的走法数，累加纵向的步数，只需累加横向的步数
         var arr:Array<Int> = Array(repeating: 0, count: m)
         arr[0] = obstacleGrid[0][0] == 0 ? 1 : 0
         for i in 0..<n{

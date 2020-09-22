@@ -28,9 +28,5 @@ import Foundation
 //print(solution.trap([0,1,5,1,1,0,8,19,1,4,4,4,5,2]))
 //print(solution.trap([2,0,2]))
 
-var solution = Solution63()
-print(solution.uniquePathsWithObstacles([
-  [0,0,0],
-  [0,1,0],
-  [0,0,0]
-]))
+var s = Solutiono11()
+print(s.minArray([1,1,1,1,0,1]))

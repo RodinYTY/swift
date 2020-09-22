@@ -20,8 +20,6 @@
 //
 //如果你已经完成了 O(n) 时间复杂度的解法, 请尝试 O(n log n) 时间复杂度的解法。
 
-import Foundation
-
 class Solution209 {
     func minSubArrayLen(_ s: Int, _ nums: [Int]) -> Int {
         var surplus = -s, beg = 0, end = -1, minLen = Int.max

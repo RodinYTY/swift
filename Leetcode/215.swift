@@ -19,8 +19,6 @@
 //
 //你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
 
-import Foundation
-
 class Solution215 {
     func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
         /// 记录前K个最大的数，降序排列
