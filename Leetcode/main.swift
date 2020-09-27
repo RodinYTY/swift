@@ -8,5 +8,5 @@
 
 import Foundation
 
-var s = Solutiono45()
-print(s.minNumber([34,12,8,0,15,13]))
+let s = Solution_43_1()
+print(s.multiply("123", "00"))

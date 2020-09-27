@@ -8,8 +8,7 @@
 
 import Foundation
 class Solutiono45 {
-    func minNumber(_ nums: [Int]) -> String {
-        var nums = nums
+    func minNumber(_ nums: inout [Int]) -> String {
         nums.sort(){num1, num2 in
             var x = num1, y = num2
             y *= 10
